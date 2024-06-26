@@ -1,3 +1,4 @@
+# file: kickstarter_scraper.py
 from bs4 import BeautifulSoup
 import ipdb
 
@@ -27,5 +28,3 @@ def create_project_dict():
 
     return projects
 
-projects = create_project_dict()
-print(projects)
